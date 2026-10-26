@@ -1,4 +1,4 @@
-# ETS2 / ATS graphics setup
+# ETS2 / ATS graphics setup for HaulMP
 
 One script that installs, switches or removes graphics mods for **Euro Truck Simulator 2** and **American Truck Simulator**:
 
