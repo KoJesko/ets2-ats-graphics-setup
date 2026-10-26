@@ -36,7 +36,7 @@ ReShade's `ReShade.ini` gets `[PROXY] ProxyLibrary=.\dxgi2.dll` so it hands over
 
 **Tested:** option 5 (ReShade + Snowymoon 2.5.10 + Snowymoon DLSS 3.7) on ETS2 1.61, launched through HaulMP v814. ReShade loads once, Snowymoon loads behind it and the game starts on DirectX 11. The DLSS 5 options (1 and 4) haven't been tested in game yet.
 
-Some older HaulMP workarounds injected a second copy of ReShade (`ReShade64.dll`). With two ReShades loaded, the `dxgi.dll` one shuts itself down, DirectX 11 fails and the game hangs with no window. The script removes stray `ReShade64.dll` / `SnowyMoon64.dll` copies and any startup item running `inject-reshade`.
+My older HaulMP workarounds injected a second copy of ReShade (`ReShade64.dll`). With two ReShades loaded, the `dxgi.dll` one shuts itself down, DirectX 11 fails and the game hangs with no window. The script removes stray `ReShade64.dll` / `SnowyMoon64.dll` copies and any startup item running `inject-reshade`.
 
 ## Where the files come from
 
